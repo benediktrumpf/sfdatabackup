@@ -126,7 +126,3 @@ find /home/bene/SFBackup/Backup_Folders/$NOW-data -size  0 -print0 |xargs -0 rm 
 cd /home/bene/SFBackup/Backup_Folders
 zip -r $NOW-data.zip $NOW-data
 mv $NOW-data.zip /home/bene/SFBackup/Backup_Files
-
-# send the email to Hendrik, Lisa, Atul and myself. This mail also contains the backup
-# of the metadata
-#$PYTHON $SCRIPT_PATH
